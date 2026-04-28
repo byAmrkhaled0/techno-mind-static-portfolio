@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Techno Mind team portfolio for the Internet Computing project. A bilingual Arabic and English static website built with HTML, CSS, and JavaScript."
+  />
+  <meta name="keywords" content="Techno Mind, Internet Computing, Team Portfolio, HTML, CSS, JavaScript" />
+  <meta name="author" content="Techno Mind Team" />
+  <title>Techno Mind | Team Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="navbar">
+      <a class="logo" href="#home" aria-label="Techno Mind Home">
+        <span class="logo-mark">TM</span>
+        <span>Techno<span>Mind</span></span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" data-ar="عن الفريق" data-en="About">عن الفريق</a></li>
+        <li><a href="#members" data-ar="الأعضاء" data-en="Members">الأعضاء</a></li>
+        <li><a href="#skills" data-ar="المهارات" data-en="Skills">المهارات</a></li>
+        <li><a href="#project" data-ar="المشروع" data-en="Project">المشروع</a></li>
+        <li><a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a></li>
+        <li><button class="lang-btn" id="langBtn" type="button">English</button></li>
+      </ul>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow" data-ar="مشروع مادة Internet Computing" data-en="Internet Computing Project">
+        مشروع مادة Internet Computing
+      </p>
+      <h1
+        data-ar="نحن Techno Mind، فريق طلابي يصنع حلول ويب ذكية ومنظمة."
+        data-en="We are Techno Mind, a student team building smart and organized web solutions."
+      >
+        نحن Techno Mind، فريق طلابي يصنع حلول ويب ذكية ومنظمة.
+      </h1>
+      <p
+        data-ar="موقع تعريفي ثابت يعرض أعضاء الفريق، أدوارهم، مهاراتهم، وفكرة المشروع بطريقة احترافية مناسبة للمناقشة والتسليم."
+        data-en="A static portfolio website presenting the team members, roles, skills, and project idea in a professional way for discussion and submission."
+      >
+        موقع تعريفي ثابت يعرض أعضاء الفريق، أدوارهم، مهاراتهم، وفكرة المشروع بطريقة احترافية مناسبة للمناقشة والتسليم.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#members" data-ar="تعرف على الفريق" data-en="Meet the Team">تعرف على الفريق</a>
+        <a class="btn secondary" href="#project" data-ar="تفاصيل المشروع" data-en="Project Details">تفاصيل المشروع</a>
+      </div>
+
+      <div class="stats" aria-label="Team statistics">
+        <article>
+          <strong>3</strong>
+          <span data-ar="أعضاء" data-en="Members">أعضاء</span>
+        </article>
+        <article>
+          <strong>2</strong>
+          <span data-ar="لغات عرض" data-en="Languages">لغات عرض</span>
+        </article>
+        <article>
+          <strong>4</strong>
+          <span data-ar="منصات نشر" data-en="Hosting Platforms">منصات نشر</span>
+        </article>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section split-section">
+      <div>
+        <p class="section-label" data-ar="عن الفريق" data-en="About the Team">عن الفريق</p>
+        <h2
+          data-ar="Techno Mind فريق يجمع بين الذكاء الاصطناعي، الواجهة الأمامية، والباك إند."
+          data-en="Techno Mind combines AI, front-end, and back-end skills."
+        >
+          Techno Mind فريق يجمع بين الذكاء الاصطناعي، الواجهة الأمامية، والباك إند.
+        </h2>
+      </div>
+      <div class="about-box">
+        <p
+          data-ar="هدفنا في هذا الموقع هو تقديم فريقنا بطريقة واضحة واحترافية، مع إظهار توزيع الأدوار داخل الفريق وكيف يشارك كل عضو في بناء مشروع ويب متكامل."
+          data-en="Our goal in this website is to present our team clearly and professionally, showing role distribution and how each member contributes to a complete web project."
+        >
+          هدفنا في هذا الموقع هو تقديم فريقنا بطريقة واضحة واحترافية، مع إظهار توزيع الأدوار داخل الفريق وكيف يشارك كل عضو في بناء مشروع ويب متكامل.
+        </p>
+        <p class="small-note"
+          data-ar="ملاحظة: هذا الموقع مخصص للعرض الأكاديمي والمناقشة داخل مادة Internet Computing."
+          data-en="Note: This website is created for academic presentation and Internet Computing discussion."
+        >
+          ملاحظة: هذا الموقع مخصص للعرض الأكاديمي والمناقشة داخل مادة Internet Computing.
+        </p>
+      </div>
+    </section>
+
+    <section id="members" class="section">
+      <p class="section-label" data-ar="أعضاء الفريق" data-en="Team Members">أعضاء الفريق</p>
+      <h2 data-ar="تعرف على Techno Mind" data-en="Meet Techno Mind">تعرف على Techno Mind</h2>
+
+      <div class="cards members-grid">
+        <article class="card member-card">
+          <div class="avatar">AK</div>
+          <span class="badge" data-ar="Team Lead / AI" data-en="Team Lead / AI">Team Lead / AI</span>
+          <h3 data-ar="عمرو خالد" data-en="Amr Khaled">عمرو خالد</h3>
+          <p
+            data-ar="مسؤول عن قيادة الفريق، تنظيم العمل، وتجهيز جزء الذكاء الاصطناعي وفكرة المشروع للمناقشة."
+            data-en="Responsible for team leadership, work organization, and preparing the AI part and project idea for discussion."
+          >
+            مسؤول عن قيادة الفريق، تنظيم العمل، وتجهيز جزء الذكاء الاصطناعي وفكرة المشروع للمناقشة.
+          </p>
+        </article>
+
+        <article class="card member-card">
+          <div class="avatar">MG</div>
+          <span class="badge" data-ar="Front-End Developer" data-en="Front-End Developer">Front-End Developer</span>
+          <h3 data-ar="محمود جمال" data-en="Mahmoud Gamal">محمود جمال</h3>
+          <p
+            data-ar="مسؤول عن تصميم الواجهة، ترتيب الأقسام، تحسين تجربة المستخدم، وجعل الموقع متجاوبًا مع جميع الشاشات."
+            data-en="Responsible for UI design, section layout, user experience improvements, and responsive design."
+          >
+            مسؤول عن تصميم الواجهة، ترتيب الأقسام، تحسين تجربة المستخدم، وجعل الموقع متجاوبًا مع جميع الشاشات.
+          </p>
+        </article>
+
+        <article class="card member-card">
+          <div class="avatar">MS</div>
+          <span class="badge" data-ar="Back-End Developer" data-en="Back-End Developer">Back-End Developer</span>
+          <h3 data-ar="محمود سلام" data-en="Mahmoud Salam">محمود سلام</h3>
+          <p
+            data-ar="مسؤول عن منطق الباك إند، قواعد البيانات، وتجهيز فكرة الموقع الديناميكي المطلوب في المشروع."
+            data-en="Responsible for back-end logic, databases, and preparing the dynamic website idea required in the project."
+          >
+            مسؤول عن منطق الباك إند، قواعد البيانات، وتجهيز فكرة الموقع الديناميكي المطلوب في المشروع.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="section-label" data-ar="مهاراتنا" data-en="Our Skills">مهاراتنا</p>
+      <h2 data-ar="تقنيات نستخدمها في تنفيذ المشروع" data-en="Technologies We Use in the Project">
+        تقنيات نستخدمها في تنفيذ المشروع
+      </h2>
+
+      <div class="skills-list">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Responsive Design</span>
+        <span>AI Concepts</span>
+        <span>PHP</span>
+        <span>MySQL</span>
+        <span>GitHub</span>
+        <span>Firebase Hosting</span>
+      </div>
+    </section>
+
+
+    <section id="contact" class="section contact">
+      <p class="section-label" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</p>
+      <h2 data-ar="بيانات التواصل الخاصة بالفريق" data-en="Team Contact Information">بيانات التواصل الخاصة بالفريق</h2>
+
+      <div class="contact-card">
+        <p data-ar="اسم الفريق: Techno Mind" data-en="Team Name: Techno Mind">اسم الفريق: Techno Mind</p>
+        <p data-ar="رقم التواصل: 01008454029" data-en="Contact Number: 01008454029">رقم التواصل: 01008454029</p>
+        <a class="btn primary" href="tel:01008454029" data-ar="اتصل بنا" data-en="Call Us">اتصل بنا</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      © <span id="year"></span>
+      <span data-ar="Techno Mind. جميع الحقوق محفوظة." data-en="Techno Mind. All rights reserved.">
+        Techno Mind. جميع الحقوق محفوظة.
+      </span>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
